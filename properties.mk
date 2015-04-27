@@ -18,6 +18,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.composition.type=gpu \
+    debug.cpurend.vsync=false \
     debug.egl.profiler=1 \
     debug.egl.hw=1 \
     debug.hwui.renderer=skiavk \
