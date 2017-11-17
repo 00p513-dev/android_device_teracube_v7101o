@@ -50,7 +50,7 @@ lib64/vendor.mediatek.hardware.videotelephony@1.0.so|c18441addb7120740a30319f86b
 # Nfc
 -app/Nfc_st/Nfc_st.apk
 bin/nfcstackp
-etc/nfcee_access.xml
+etc/nfcee_access.xml|0b2e6cde839a1c5ecc20fd34df8a82275382242e
 etc/permissions/com.st.android.nfc_extensions.xml
 etc/permissions/com.st.android.nfc_dta_extensions.xml
 -framework/com.st.android.nfc_dta_extensions.jar
