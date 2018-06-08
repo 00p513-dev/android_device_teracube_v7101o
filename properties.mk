@@ -22,6 +22,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.profiler=1 \
     debug.egl.hw=1 \
     debug.hwui.renderer=skiavk \
+    debug.hwui.use_buffer_age=false \
     debug.sf.hw=1 \
     debug.sf.early_app_phase_offset_ns=1500000 \
     debug.sf.early_gl_phase_offset_ns=3000000 \
