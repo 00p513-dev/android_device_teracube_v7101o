@@ -256,4 +256,24 @@
          config_mainBuiltInDisplayCutout
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M82,0H-82V23.58l1,.94C-56.9,47.9-46,80-2,80S52.9,51.38,77,28c1.6-1.56,3.27-3,5-4.42Z</string>
+
+    <!-- Haptic -->
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>35</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>35</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>35</item>
+    </integer-array>
+
 </resources>
