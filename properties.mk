@@ -17,6 +17,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     sys.ipo.disable=1
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.early_app_phase_offset_ns=500000 \
+    debug.sf.early_gl_phase_offset_ns=3000000 \
+    debug.sf.early_gl_app_phase_offset_ns=15000000 \
+    debug.sf.early_phase_offset_ns=500000 \
     debug.sf.latch_unsignaled=1 \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
