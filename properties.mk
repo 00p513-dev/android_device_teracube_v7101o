@@ -33,6 +33,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.wfc_avail_ovr=1 \
     telephony.lteOnCdmaDevice=1
 
+# OMX: Rank OMX SW codecs lower than OMX HW codecs
+# TODO: Move to vendor_prop.mk once we build vendor image
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.stagefright.omx_default_rank.sw-audio=1 \
+    debug.stagefright.omx_default_rank=0
+
 # Perf
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.kernel.zio=38,108,105,16 \
