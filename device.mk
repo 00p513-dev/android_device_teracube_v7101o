@@ -19,6 +19,10 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     libaacwrapper
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libldacBT_dec
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
