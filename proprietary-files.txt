@@ -1,3 +1,10 @@
+# Kernel Power Offline Charging
+bin/kpoc_charger
+etc/init/kpoc_charger.rc
+lib/libshowlogo.so
+lib/libsysenv_system.so
+lib64/libsysenv_system.so
+
 # MTK-IMS - From Atom_L
 -framework/mediatek-common.jar|1da569557d5a525535cd1810ffbdb2432b628d58
 -framework/mediatek-framework.jar|11c4124f2d3cd0629aa8e816842ddcb228707823
