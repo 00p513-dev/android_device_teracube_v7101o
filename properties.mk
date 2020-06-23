@@ -9,7 +9,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.camera.sound.forced=0 \
     ro.audio.silent=0
 
-# Display
+# Display (Graphics, SurfaceFlinger, Video)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.opengles.version=196610 \
     ro.zygote.preload.enable=0 \
@@ -17,6 +17,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     sys.ipo.disable=1
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.composition.type=gpu \
+    debug.egl.profiler=1 \
+    debug.egl.hw=1 \
+    debug.sf.hw=1 \
     debug.sf.early_app_phase_offset_ns=1500000 \
     debug.sf.early_gl_phase_offset_ns=3000000 \
     debug.sf.early_gl_app_phase_offset_ns=15000000 \
@@ -24,7 +28,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.latch_unsignaled=1 \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
-    ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
+    ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000 \
+    video.accelerate.hw=1
 
 # IMS
 PRODUCT_PRODUCT_PROPERTIES += \
