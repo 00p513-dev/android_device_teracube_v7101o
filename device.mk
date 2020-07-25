@@ -34,6 +34,10 @@ PRODUCT_PACKAGES += \
 # fstab
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.mt6771:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6771
+    
+# Init
+PRODUCT_PACKAGES += \
+    init.mt6771.rc
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
