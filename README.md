@@ -3,6 +3,10 @@ Device configuration for Unihertz Atom L (Atom_L)
 
 The Unihertz Atom L (codenamed simply _"Atom_L"_) is a rugged small smartphone from Unihertz, released in July 2020. It is similar to the Atom XL but without integrated amateur radio support.
 
+The following patches is needed to build a working image of LineageOS:
+
+<https://review.potatoproject.co/c/PotatoProject/frameworks_base/+/4850>
+
 | Basic                   | Spec Sheet                                                                                                                     |
 | -----------------------:|:------------------------------------------------------------------------------------------------------------------------------ |
 | CPU                     | Octa-core                                                                                                                      |
