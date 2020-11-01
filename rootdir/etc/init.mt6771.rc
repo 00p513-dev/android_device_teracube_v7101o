@@ -12,3 +12,6 @@ on post-fs
     # (at post-fs, the fstab has already been used to mount the partitions,
     #  so it is fine to just revert back)
     umount /vendor/etc/fstab.mt6771
+
+on zygote-start
+   mount none /system/overlay/DummyOverlay.apk /vendor/overlay/framework-res__auto_generated_rro.apk bind

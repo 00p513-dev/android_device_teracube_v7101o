@@ -1,6 +1,3 @@
-# APNs
-etc/apns-conf.xml:product/etc/apns-conf.xml
-
 # MTK-IMS
 -framework/mediatek-common.jar
 -framework/mediatek-framework.jar
@@ -43,3 +40,24 @@ lib64/libmtkshifter.so
 lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
 lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
+# Nfc
+-app/Nfc_st/Nfc_st.apk
+bin/nfcstackp
+etc/nfcee_access.xml
+etc/permissions/com.st.android.nfc_extensions.xml
+etc/permissions/com.st.android.nfc_dta_extensions.xml
+-framework/com.st.android.nfc_dta_extensions.jar
+-framework/com.st.android.nfc_extensions.jar
+lib/libdtaNfaProvider.so
+lib/libnfc_st_dta_jni.so
+lib/libnfc_st_dta.so
+lib/libstnfc-nci.so
+lib/libstnfc_nci_jni.so
+lib/libicuXD.so|7c91bdce87701ef214bb1fdf3eb70df67d6bc56e
+lib64/libdtaNfaProvider.so
+lib64/libnfc_st_dta_jni.so
+lib64/libnfc_st_dta.so
+lib64/libstnfc-nci.so
+lib64/libstnfc_nci_jni.so
+lib64/libicuXD.so|38a371b3bc7d43aa31cf14971aa55fe6c144dd30

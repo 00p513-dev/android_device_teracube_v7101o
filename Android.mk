@@ -6,7 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),Atom_L)
-subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
-$(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
+ifeq ($(TARGET_DEVICE),bismuth)
+include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

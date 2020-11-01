@@ -17,8 +17,8 @@
 
 set -e
 
-DEVICE=Atom_L
-VENDOR=unihertz
+DEVICE=bismuth
+VENDOR=teracube
 INITIAL_COPYRIGHT_YEAR=2020
 
 # Load extract_utils and do some sanity checks

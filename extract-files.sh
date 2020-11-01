@@ -17,8 +17,8 @@
 
 set -e
 
-DEVICE=Atom_L
-VENDOR=unihertz
+DEVICE=bismuth
+VENDOR=teracube
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
@@ -74,5 +74,7 @@ extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"
 
 COMMON_BLOB_ROOT="${LINEAGE_ROOT}/vendor/${VENDOR}/${DEVICE}/proprietary"
+
+sed -i 's/libicuuc\.so/libicuXD.so/g' "${COMMON_BLOB_ROOT}/bin/nfcstackp" "${COMMON_BLOB_ROOT}/lib/libstnfc_nci_jni.so" "${COMMON_BLOB_ROOT}/lib64/libstnfc_nci_jni.so"
 
 "${MY_DIR}/setup-makefiles.sh" 
