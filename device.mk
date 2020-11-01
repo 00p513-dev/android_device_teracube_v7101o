@@ -13,6 +13,10 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 # A/B
 AB_OTA_UPDATER := false
 
+# APNs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
