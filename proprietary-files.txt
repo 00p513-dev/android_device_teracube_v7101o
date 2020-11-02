@@ -54,10 +54,10 @@ lib/libnfc_st_dta_jni.so
 lib/libnfc_st_dta.so
 lib/libstnfc-nci.so
 lib/libstnfc_nci_jni.so
-lib/libicuXD.so|7c91bdce87701ef214bb1fdf3eb70df67d6bc56e
+lib/libicuuc.so:lib/libicuXD.so
 lib64/libdtaNfaProvider.so
 lib64/libnfc_st_dta_jni.so
 lib64/libnfc_st_dta.so
 lib64/libstnfc-nci.so
 lib64/libstnfc_nci_jni.so
-lib64/libicuXD.so|38a371b3bc7d43aa31cf14971aa55fe6c144dd30
+lib64/libicuuc.so:lib64/libicuXD.so
