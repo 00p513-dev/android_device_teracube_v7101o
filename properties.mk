@@ -28,6 +28,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
     ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000 \
+    ro.vendor.mtk_pq_support=0 \
     ro.zygote.preload.enable=0 \
     sys.ipo.disable=1 \
     video.accelerate.hw=1
