@@ -39,7 +39,9 @@ PRODUCT_PACKAGES += \
     
 # Init
 PRODUCT_PACKAGES += \
+    init.ago.rc \
     init.mt6771.rc \
+    fstab.enableswap \
     fstab.mt6771
 
 # Keylayouts
