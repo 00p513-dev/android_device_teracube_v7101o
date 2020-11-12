@@ -20,13 +20,16 @@ PRODUCT_NAME := lineage_bismuth
 PRODUCT_DEVICE := bismuth
 PRODUCT_BRAND := Teracube
 PRODUCT_MODEL := Teracube One
-PRODUCT_MANUFACTURER := bismuth
+PRODUCT_MANUFACTURER := Teracube
 
-# Build info
-BUILD_FINGERPRINT := "Teracube/Teracube_One/Teracube_One:9/PPR1.180610.011/20200610:user/release-keys"
+# Fingerprint
+BUILD_FINGERPRINT := google/sunfish/sunfish:11/RP1A.201105.002/6869500:user/release-keys
+BUILD_DESCRIPTION := sunfish-user 11 RP1A.201105.002 6869500 release-keys
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=bismuth \
-    PRODUCT_NAME=bismuth \
-    PRIVATE_BUILD_DESC="Teracube_One-user 9 PPR1.180610.011 20200610 release-keys"
+    PRIVATE_BUILD_DESC="$(BUILD_DESCRIPTION)"
     
 PRODUCT_GMS_CLIENTID_BASE := android-vanzo
