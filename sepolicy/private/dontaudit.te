@@ -1,0 +1,8 @@
+# priv_app
+dontaudit priv_app mnt_vendor_file:dir search;
+
+# untrusted_app
+# Apps are no longer allowed open access to /dev/ashmem, unless they
+# target API level < Q.
+dontaudit untrusted_app ashmem_device:chr_file open;
+dontaudit untrusted_app_27 ashmem_device:chr_file open;

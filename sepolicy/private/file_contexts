@@ -1,2 +1,10 @@
+# GPU Labels
+/dev/mali.* u:object_r:gpu_device:s0
+/dev/mtk_disp.* u:object_r:graphics_device:s0
+
+# SysFS Labels
+/sys/devices/virtual/android_usb/android0/state u:object_r:sysfs_android_usb:s0
+/sys/devices/virtual/block/zram0/mm_stat u:object_r:sysfs_zram:s0
+
 # VoLTE
 /system/bin/vtservice           u:object_r:vtservice_exec:s0
