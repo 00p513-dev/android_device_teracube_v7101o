@@ -16,6 +16,11 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     qemu.hw.mainkeys=0 \
     sys.ipo.disable=1
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
+    ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
+    ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
+
 # IMS
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.volte_avail_ovr=1 \
