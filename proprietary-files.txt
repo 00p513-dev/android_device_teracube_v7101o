@@ -16,7 +16,6 @@ lib64/libsysenv_system.so
 -priv-app/ImsService/ImsService.apk|2022a4e2e61f1c91b17a1b0ca4262d4195ed59c0
 bin/vtservice|926f705b9097c9f83ad8ce1a78e8031f4badce85
 etc/init/init.vtservice.rc|d9f57469d0ecf6b84e53901b8ea7379022c9b49e
-etc/permissions/privapp-permissions-mediatek.xml|993d266c7b36672834808741178efe9dfa17886e
 framework/mediatek-ims-extension-plugin.jar|5aae16437bcfae7da5474a17ab08de4ea67e000a
 framework/mediatek-ims-legacy.jar|d8813211112f6f3eb643626ed2d0aa14a9e89090
 lib/libcomutils.so|be65323e32b85b6fa81f3ccdae98dab7f2a14b01
