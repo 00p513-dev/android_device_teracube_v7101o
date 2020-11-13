@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product-if-exists, vendor/teracube/bismuth/bismuth-vendor.mk)
 
 # Properties
-include $(LOCAL_PATH)/product_prop.mk
+include $(LOCAL_PATH)/properties.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # A/B
