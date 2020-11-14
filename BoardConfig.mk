@@ -6,7 +6,7 @@
 DEVICE_PATH := device/teracube/bismuth
 
 # APEX
-DEXPREOPT_GENERATE_APEX_IMAGE := true
+TARGET_FLATTEN_APEX := true
 
 # Assertions
 TARGET_OTA_ASSERT_DEVICE := Teracube_One,bismuth
