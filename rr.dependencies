@@ -1,0 +1,14 @@
+[
+  {
+    "remote"     : "github",
+    "repository" : "TheMalachite/kernel_teracube_bismuth",
+    "target_path": "kernel/teracube/bismuth",
+    "revision"   : "Q"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "TheMalachite/vendor_teracube_bismuth",
+    "target_path": "vendor/teracube/bismuth",
+    "revision"   : "Q"
+  }
+]
