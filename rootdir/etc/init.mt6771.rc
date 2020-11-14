@@ -15,4 +15,5 @@ on post-fs
     umount /vendor/etc/fstab.mt6771
 
 on zygote-start
+   mount none /system/etc/media_codecs_mediatek_video.xml /vendor/etc/media_codecs_mediatek_video.xml bind
    mount none /system/overlay/DummyOverlay.apk /vendor/overlay/framework-res__auto_generated_rro.apk bind
