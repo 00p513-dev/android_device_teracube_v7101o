@@ -16,3 +16,20 @@ on post-fs
 
 on zygote-start
    mount none /system/overlay/DummyOverlay.apk /vendor/overlay/framework-res__auto_generated_rro.apk bind
+
+on post-fs-data
+
+service ccci_mdinit /vendor/bin/ccci_mdinit 0
+   user system
+   group radio system
+   class core
+   oneshot
+
+service ccci3_mdinit /vendor/bin/ccci_mdinit 2
+   user system
+   group radio system
+   class core
+   oneshot
+
+start ccci_mdinit
+start ccci3_mdinit
