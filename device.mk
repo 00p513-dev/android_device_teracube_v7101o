@@ -44,13 +44,7 @@ PRODUCT_COPY_FILES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.0:64 \
-    android.hardware.nfc@1.1:64 \
-    android.hardware.nfc@1.2:64 \
-    android.hardware.secure_element@1.0:64 \
-    android.hardware.secure_element@1.1:64 \
-    com.android.nfc_extras \
-    Tag
+    NfcNci
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -73,15 +67,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_BOOT_JARS += \
     mediatek-common \
     mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml
+    mediatek-ims-base
 
 # VNDK
-PRODUCT_TARGET_VNDK_VERSION := 28
-PRODUCT_EXTRA_VNDK_VERSIONS := 28
+PRODUCT_TARGET_VNDK_VERSION := 29

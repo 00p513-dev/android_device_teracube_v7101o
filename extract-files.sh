@@ -75,6 +75,4 @@ extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
 
 COMMON_BLOB_ROOT="${LINEAGE_ROOT}/vendor/${VENDOR}/${DEVICE}/proprietary"
 
-sed -i 's/libicuuc\.so/libicuXD.so/g' "${COMMON_BLOB_ROOT}/bin/nfcstackp" "${COMMON_BLOB_ROOT}/lib/libstnfc_nci_jni.so" "${COMMON_BLOB_ROOT}/lib64/libstnfc_nci_jni.so"
-
 "${MY_DIR}/setup-makefiles.sh" 
