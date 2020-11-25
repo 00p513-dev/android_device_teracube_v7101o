@@ -67,7 +67,11 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_BOOT_JARS += \
     mediatek-common \
     mediatek-framework \
-    mediatek-ims-base
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
