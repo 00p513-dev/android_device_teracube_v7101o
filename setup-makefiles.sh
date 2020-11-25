@@ -17,7 +17,7 @@
 
 set -e
 
-DEVICE=bismuth
+DEVICE=v7101o
 VENDOR=teracube
 INITIAL_COPYRIGHT_YEAR=2020
 

@@ -9,16 +9,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit from bismuth device
-$(call inherit-product, device/teracube/bismuth/device.mk)
+# Inherit from v7101o device
+$(call inherit-product, device/teracube/v7101o/device.mk)
 
 # Inherit some common Lineage stuff.
 TARGET_FACE_UNLOCK_SUPPORTED := true
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := rr_bismuth
-PRODUCT_DEVICE := bismuth
+PRODUCT_NAME := rr_v7101o
+PRODUCT_DEVICE := v7101o
 PRODUCT_BRAND := Teracube
 PRODUCT_MODEL := Teracube One
 PRODUCT_MANUFACTURER := Teracube

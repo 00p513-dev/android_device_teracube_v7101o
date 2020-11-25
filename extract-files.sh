@@ -17,7 +17,7 @@
 
 set -e
 
-DEVICE=bismuth
+DEVICE=v7101o
 VENDOR=teracube
 
 # Load extract_utils and do some sanity checks

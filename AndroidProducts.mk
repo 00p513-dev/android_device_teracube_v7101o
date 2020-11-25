@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_bismuth.mk
+    $(LOCAL_DIR)/rr_v7101o.mk

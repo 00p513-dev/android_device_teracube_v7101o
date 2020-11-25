@@ -4,7 +4,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/teracube/bismuth/bismuth-vendor.mk)
+$(call inherit-product-if-exists, vendor/teracube/v7101o/v7101o-vendor.mk)
 
 # Properties
 include $(LOCAL_PATH)/properties.mk

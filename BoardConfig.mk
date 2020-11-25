@@ -3,13 +3,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/teracube/bismuth
+DEVICE_PATH := device/teracube/v7101o
 
 # APEX
 TARGET_FLATTEN_APEX := true
 
 # Assertions
-TARGET_OTA_ASSERT_DEVICE := Teracube_One,bismuth
+TARGET_OTA_ASSERT_DEVICE := Teracube_One,v7101o
 
 # Architecture
 TARGET_ARCH := arm64
@@ -60,7 +60,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/teracube/bismuth
+TARGET_KERNEL_SOURCE := kernel/teracube/v7101o
 TARGET_KERNEL_CONFIG := v7101o_defconfig
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     DTC=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/dtc/dtc \

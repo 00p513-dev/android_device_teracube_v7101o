@@ -1,7 +1,7 @@
-Device tree for the Teracube One (bismuth)
+Device tree for the Teracube One (v7101o)
 =================================================
 
-The Teracube One (codenamed _"bismuth"_) is a mid-range smartphone from Teracube.
+The Teracube One (codenamed _"v7101o"_) is a mid-range smartphone from Teracube.
 He was released in February 2020.
 
 | Basic                   | Spec Sheet                                                                                                                     |
@@ -18,4 +18,4 @@ He was released in February 2020.
 | Camera (Front)          | 8MP                                                                                                                            |
 
 ## Device picture
-![bismuth](https://cdn.shopify.com/s/files/1/0253/7386/8081/products/PRODUCT-1_450x.png?v=1579695634)
+![v7101o](https://cdn.shopify.com/s/files/1/0253/7386/8081/products/PRODUCT-1_450x.png?v=1579695634)

@@ -1,14 +1,14 @@
 [
   {
     "remote"     : "github",
-    "repository" : "TheMalachite/kernel_teracube_bismuth",
-    "target_path": "kernel/teracube/bismuth",
+    "repository" : "TheMalachite/kernel_teracube_v7101o",
+    "target_path": "kernel/teracube/v7101o",
     "revision"   : "Q"
   },
   {
     "remote"     : "github",
-    "repository" : "TheMalachite/vendor_teracube_bismuth",
-    "target_path": "vendor/teracube/bismuth",
+    "repository" : "TheMalachite/vendor_teracube_v7101o",
+    "target_path": "vendor/teracube/v7101o",
     "revision"   : "Q"
   }
 ]
