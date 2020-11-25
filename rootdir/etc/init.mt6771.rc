@@ -17,6 +17,9 @@ on post-fs
 on zygote-start
    mount none /system/overlay/DummyOverlay.apk /vendor/overlay/framework-res__auto_generated_rro.apk bind
 
+on post-fs
+   mount none /system/etc/audio_policy_configuration.xml /vendor/etc/audio_policy_configuration.xml bind
+
 on post-fs-data
 
 service ccci_mdinit /vendor/bin/ccci_mdinit 0
