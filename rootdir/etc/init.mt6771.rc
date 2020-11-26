@@ -6,6 +6,7 @@ on init
     # We only need it to be overridden before things are mounted
     mount none /system/etc/fstab.mt6771 /vendor/etc/fstab.mt6771 bind
     mount none /system/etc/fstab.enableswap /vendor/etc/fstab.enableswap bind
+    mount none /system/etc/init/init.cccimdinit.rc /vendor/etc/init/init.cccimdinit.rc
 
 on post-fs
     # Unmount the overridden fstab because the SELinux label is incorrect
@@ -15,24 +16,7 @@ on post-fs
     umount /vendor/etc/fstab.mt6771
 
 on zygote-start
-   mount none /system/overlay/DummyOverlay.apk /vendor/overlay/framework-res__auto_generated_rro.apk bind
+    mount none /system/overlay/DummyOverlay.apk /vendor/overlay/framework-res__auto_generated_rro.apk bind
 
 on post-fs
-   mount none /system/etc/audio_policy_configuration.xml /vendor/etc/audio_policy_configuration.xml bind
-
-on post-fs-data
-
-service ccci_mdinit /vendor/bin/ccci_mdinit 0
-   user system
-   group radio system
-   class core
-   oneshot
-
-service ccci3_mdinit /vendor/bin/ccci_mdinit 2
-   user system
-   group radio system
-   class core
-   oneshot
-
-start ccci_mdinit
-start ccci3_mdinit
+    mount none /system/etc/audio_policy_configuration.xml /vendor/etc/audio_policy_configuration.xml bind
