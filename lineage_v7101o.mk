@@ -12,11 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from v7101o device
 $(call inherit-product, device/teracube/v7101o/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Aurora stuff.
+$(call inherit-product, vendor/aurora/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_v7101o
+PRODUCT_NAME := aurora_v7101o
 PRODUCT_DEVICE := v7101o
 PRODUCT_BRAND := Teracube
 PRODUCT_MODEL := Teracube One
